@@ -17,3 +17,4 @@ scalacOptions ++= Seq(
   "-deprecation",
   "-Xfatal-warnings"
 )
+sources in (Compile, doc) := Seq.empty
